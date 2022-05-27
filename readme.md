@@ -16,7 +16,7 @@
 |t|string|not|吨位（吨）:2、2-5、5以上|
 |office|string|required|办公用房配套：有、无|
 |officeArea|number|not|面积：单位平方|
-|dormitory|string|not|员工宿舍配套：无、有|
+|dormitory|string|required|员工宿舍配套：无、有|
 |dormitoryArea|number|not|面积：单位平方|
 |refectory|string|required|员工食堂配套：有、无|
 |numberOfPeople|number|not|可容纳人数：单位人|
