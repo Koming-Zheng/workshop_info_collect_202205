@@ -6,9 +6,9 @@
 |workshopProvinceCity|string|required|厂房位置：厂房省市位置|
 |workshopDetailAddress|string|required|厂房位置：详细地址|
 |plantArea|number|required|厂房面积：单位平方|
-|floorHeight|number|required|层高|
-|long|number|required|长|
-|width|number|required|宽|
+|floorHeight|number|required|层高（单位米）|
+|long|number|required|长（单位米）|
+|width|number|required|宽（单位米）|
 |layerNumber|string|required|层数：单层、多层、混合层|
 |space|string|required|厂房空间结构:排架结构、砖混结构、钢架结构|
 |power|string|required|电力容量（千瓦）:0-20(含20)、20-50(含50)、50-100(含100)、100-150(含150)、150-200(含200)、200以上|
@@ -16,7 +16,7 @@
 |t|string|not|吨位（吨）:2、2-5、5以上|
 |office|string|required|办公用房配套：有、无|
 |officeArea|number|not|面积：单位平方|
-|dormitory|string|dormitory|required|员工宿舍配套：无、有|
+|dormitory|string|not|员工宿舍配套：无、有|
 |dormitoryArea|number|not|面积：单位平方|
 |refectory|string|required|员工食堂配套：有、无|
 |numberOfPeople|number|not|可容纳人数：单位人|
